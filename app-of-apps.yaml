@@ -8,7 +8,7 @@ spec:
     namespace: argocd
   source:
     path: apps
-    repoURL: 'https://github.com/maxbpro/soulmate-config.git'
+    repoURL: https://github.com/maxbpro/soulmate-config.git
     targetRevision: HEAD
   project: default
   # syncPolicy:
